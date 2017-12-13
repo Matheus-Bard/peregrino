@@ -9,33 +9,32 @@
                 text-align: center;
                 font-family: arial;
                 font-size: 40px;
-                color: white;
+                color: black;
             }
             .fancyTxt{
                 text-align: center;
                 font-size: 30px;
-                color: white;
+                color: black;
             }
             .background{
-                background: #863434 url("img/background.png") no-repeat center;
+                background: url("img/background.png") no-repeat center;
+                padding: 10px 10px -10px -10px;
             }
             img{
                 width: 10%;
                 height: 10%;
             }
         </style>
-        <title>PEREGRINO</title>
+        <title >PEREGRINO</title>
         <!-- Metadata geralmente define titulo, tipo de letra/caractere,
         estilos/CSS, links, scrips, entre outros metadados-->
     </head>
 
-    <body class = "background"> <!-- Body == conteúdo visível da página-->
-        <?php
-            echo "my name is BARD";
-        ?>
+    <body> <!-- Body == conteúdo visível da página-->
         <h1 class = "standard">Um fudido em Marte</h1>
+    <div>
         <hr>    <!-- "Regua" horizontal-->
-        <p class = "fancyTxt">  <!-- Texto pré-formatado-->
+        <p class = "background" class = "fancyTxt">  <!-- Texto pré-formatado-->
             My Bonnie lies over the ocean.
             <br><br>
             My Bonnie lies over the sea.
@@ -53,6 +52,7 @@
         <map name = "workmap">
             <area shape = ""
         </map>
+    </div>
         <!-- Todos os elementos/tag's de HTML podem ter
         atributos (atributos são informações adicionais sobre o elemento/tag),
         tais atributos sempre ocorrem no início do elemento/tag e normalmente são declarados

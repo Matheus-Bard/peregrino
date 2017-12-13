@@ -1,1 +1,6 @@
 FAVICONS - 16x16 img binded/locked/added up with url
+--------//---------
+CSS ->
+# -> id attribute
+.class -> class attribute
+h1/h2/body... -> element attribute
